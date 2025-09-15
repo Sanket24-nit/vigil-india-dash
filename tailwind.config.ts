@@ -47,6 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        health: {
+          primary: "hsl(var(--health-primary))",
+          light: "hsl(var(--health-light))",
+          lighter: "hsl(var(--health-lighter))",
+          dark: "hsl(var(--health-dark))",
+        },
+        status: {
+          safe: "hsl(var(--status-safe))",
+          caution: "hsl(var(--status-caution))",
+          danger: "hsl(var(--status-danger))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +68,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-health": "var(--gradient-health)",
+        "gradient-header": "var(--gradient-header)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "health": "var(--shadow-health)",
+        "card-health": "var(--shadow-card)",
       },
       borderRadius: {
         lg: "var(--radius)",
